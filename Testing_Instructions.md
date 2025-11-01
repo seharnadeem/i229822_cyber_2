@@ -1,4 +1,4 @@
-# Secure FinTech Application - Manual Testing Instructions
+# Secure FinTech Application - Testing Instructions
 
 ## Prerequisites
 1. Install required packages:
@@ -8,7 +8,7 @@ pip install flask bcrypt cryptography werkzeug
 
 2. Run the application:
 ```bash
-python app.py
+python SecureBankingSystem.py
 ```
 
 3. Open browser and go to: `http://localhost:5000`
@@ -30,8 +30,8 @@ python app.py
 **Expected:** Password rejected with specific requirements
 **Steps:**
 1. Go to register page
-2. Username: `testuser`
-3. Email: `test@email.com`
+2. Username: `Sehar Nadeem`
+3. Email: `i229822@nu.edu.pk`
 4. Password: `12345`
 5. Confirm Password: `12345`
 6. Click Register
@@ -284,4 +284,5 @@ Create a document with:
 5. **Security Findings** and recommendations
 6. **Conclusion** on app security posture
 
-This comprehensive testing approach will demonstrate thorough manual cybersecurity testing of your FinTech application.
+
+
