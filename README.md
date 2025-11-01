@@ -80,29 +80,6 @@ Then visit **http://127.0.0.1:5000** in your browser.
 
 ---
 
-## 📂 Project Structure
-
-```
-SecureBank/
-│
-├── app.py                  # Main Flask application
-├── secure_banking.db       # SQLite database (auto-generated)
-├── bank_encryption.key     # AES encryption key (auto-generated)
-├── bank_security_audit.log # Audit trail log file
-├── secure_uploads/         # Directory for user-uploaded files
-├── templates/              # Jinja2 HTML templates
-│   ├── secure_base.html
-│   ├── secure_login.html
-│   ├── secure_register.html
-│   ├── secure_dashboard.html
-│   ├── secure_profile.html
-│   ├── secure_transaction.html
-│   └── secure_error.html
-└── static/                 # Optional static assets (CSS/JS/icons)
-```
-
----
-
 ## 🧠 Security Highlights
 
 - **AES-128 encryption** for sensitive information such as SSN.
@@ -151,6 +128,6 @@ You are free to modify and extend it under the MIT License.
 
 ## ✨ Author
 
-**Developed by:** Abdul Hadi Cheema  
+**Developed by:** Sehar Nadeem 
 **Institution:** FAST University Islamabad  
-**Semester:** 6th (Cybersecurity Major)
+**Semester:** 7th 
